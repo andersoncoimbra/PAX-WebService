@@ -7,7 +7,10 @@
  */
 function cadastro(){
 
-if(isset($_GET['cadastro'])){
-    echo "Tela de cadastro";
+if(isset($_GET['cadastro'])) {
+
+    printf("
+Tela de cadastro
+    ");
 }
 }

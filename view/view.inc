@@ -6,6 +6,7 @@
  * Time: 02:28
  */
 include "loginView.inc";
+include "layout.inc";
 
 
 function vericaStausInicial(){

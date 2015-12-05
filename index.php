@@ -8,10 +8,9 @@
 include "model/model.inc";
 include "view/view.inc";
 
-echo STATUSCONEX."<br>";
-
+headertype();
 vericaStausInicial();
-
+footer();
 
 
 //echo "Index";
