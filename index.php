@@ -10,8 +10,7 @@ include "view/view.inc";
 
 echo STATUSCONEX."<br>";
 
-login();
-
+vericaStausInicial();
 
 
 
