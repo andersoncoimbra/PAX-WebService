@@ -22,8 +22,7 @@ if(isset($_GET['cadastro'])) {
 <?php
 }
     if (isset($_GET['cadastra']) && @$_GET['cadastra'] == 'Cadastrar'){
-        $query = new query();
-        $query->cadastrarAluno($_GET['cadNome'],$_GET['cadEmail'],$_GET['cadSenha']);
+        cadastrarAluno($_GET['cadNome'],$_GET['cadEmail'],$_GET['cadSenha']);
 
     }
 }
