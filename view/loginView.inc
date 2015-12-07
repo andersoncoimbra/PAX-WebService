@@ -8,14 +8,8 @@
 ///////////////////
 // VEREFICA O PARAMETRO DE ACESSO E DEFINE PREVILEGIOS
 //////////////////
-include "telaDeCadastro.inc";
+
 function login(){
-if(isset($_GET['id'])){
-    echo "lOGADO";}
-elseif(isset($_GET['cadastro'])){
-    cadastro();
-}
-else{
     printf('
 <form>
     <input type="email" placeholder="Digite seu E-mail" required/><br>
@@ -24,5 +18,5 @@ else{
     <p> <a href="?cadastro" >Ainda não sou cadastrado</a></p>
     </form>
     ');
-}
+
 }

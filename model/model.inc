@@ -6,4 +6,4 @@
  * Time: 01:07
  */
 
-include "conect.inc";
+include_once "conect.inc";

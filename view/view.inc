@@ -7,10 +7,17 @@
  */
 include "loginView.inc";
 include "layout.inc";
+include "telaDeCadastro.inc";
+include 'dashboard.inc';
 
 
 function vericaStausInicial(){
 
-
-    login();
+if(isset($_GET['id'])){
+    dashboard();
 }
+elseif(isset($_GET['cadastro']) || isset($_GET['cadastra']) ) {
+    cadastro();
+}else{
+    login();
+}}
