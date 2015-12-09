@@ -25,5 +25,6 @@ if(isset($_GET['cadastro'])) {
         cadastrarAluno($_GET['cadNome'],$_GET['cadEmail'],$_GET['cadSenha']);
 
     }
+
 }
 ?>

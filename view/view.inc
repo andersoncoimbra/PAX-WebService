@@ -11,13 +11,3 @@ include "telaDeCadastro.inc";
 include 'dashboard.inc';
 
 
-function vericaStausInicial(){
-
-if(isset($_GET['id'])){
-    dashboard();
-}
-elseif(isset($_GET['cadastro']) || isset($_GET['cadastra']) ) {
-    cadastro();
-}else{
-    login();
-}}

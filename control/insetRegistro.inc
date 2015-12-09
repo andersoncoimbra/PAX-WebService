@@ -8,6 +8,7 @@
 require_once "model/model.inc";
 
 
+
 function cadastrarAluno($nome, $email, $senha){
     $query = "INSERT INTO alunos VALUES (NULL, '$nome','','$email','$senha')";
     $com = new mysqli('localhost', 'root', '', 'pax');
@@ -19,6 +20,9 @@ function cadastrarAluno($nome, $email, $senha){
     $link = mysqli_query($com, $query);
 
     var_dump($link);
+
+
+
 
 if(mysqli_affected_rows($com) == 1){     echo 'cadastrado com sucesso';}
     //echo STATUSCONEX;
