@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="60a89b59-edc7-4580-a03f-4f371c41c5c1" name="Host" url="http://10.0.0.103/pax">
-        <fileTransfer host="10.0.0.103" port="21" password="dfd9df9bdf9ddf9adf9bdf9bdf9bdfcb" username="pax">
+      <webServer id="60a89b59-edc7-4580-a03f-4f371c41c5c1" name="Host" url="http://10.0.0.101/pax">
+        <fileTransfer host="10.0.0.101" port="21" password="dfd9df9bdf9ddf9adf9bdf9bdf9bdfcb" username="pax">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

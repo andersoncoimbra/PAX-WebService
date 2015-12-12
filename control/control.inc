@@ -9,6 +9,7 @@
 include_once 'consultaAlunos.inc';
 include_once 'createTable.php';
 include_once 'insetRegistro.inc';
+include_once 'authenticate.inc';
 
 function vericaStausInicial(){
 /////////////

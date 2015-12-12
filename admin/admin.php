@@ -7,6 +7,9 @@
  */
 function admin(){
     echo "Area de Administração";
-    allAlunos();
+
+    if(auth($_GET['admin'])) {
+        allAlunos();
+    }
 }
 
