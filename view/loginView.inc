@@ -11,9 +11,9 @@
 
 function login(){
     printf('
-<form>
-    <input type="email" placeholder="Digite seu E-mail" required/><br>
-    <input type="password" placeholder="Sua Senha"/><br>
+<form method="post">
+    <input type="email" placeholder="Digite seu E-mail" required name="email"/><br>
+    <input type="password" placeholder="Sua Senha" name="senha"/><br>
     <input  type="submit" value="Logar"/><br>
     <p> <a href="?cadastro" >Ainda não sou cadastrado</a></p>
     </form>
