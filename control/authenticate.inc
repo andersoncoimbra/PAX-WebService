@@ -6,6 +6,7 @@
  * Time: 06:31
  */
 
-function auth($id){
+function auth($email, $senha){
+
     return true;
 }
