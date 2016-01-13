@@ -25,9 +25,13 @@ function vericaStausInicial(){
         admin();
     }else{
         if(isset($_POST['email']) && isset($_POST['senha'])){
-            echo "Tela do aluno <br>";
-            echo 'Email : '.$_POST['email'];
-            echo '<br> Senha : '. $_POST['senha'];
+            if(auth($_POST['email'], $_POST['senha'])) {
+                echo "Tela do aluno <br>";
+                echo 'Email : ' . $_POST['email'];
+                echo '<br> Senha : ' . $_POST['senha'];
+            }else{
+                echo 'Acesso negado';
+            }
         }
         else{
         login();}
