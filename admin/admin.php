@@ -6,10 +6,16 @@
  * Time: 01:25
  */
 function admin(){
-    echo "Area de Administração";
+    echo "Area de Administração<br>";
 
-    if(auth($_GET['admin'])) {
-        allAlunos();
+    if(issetEmaileSenha()) {
+        if(auth($_POST['email'],$_POST['senha'])){
+        allAlunos();}
+        else{
+            echo 'Acesso não autorizado';
+        }
+    }else{
+        login();
     }
 }
 
