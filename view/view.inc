@@ -9,5 +9,6 @@ include "loginView.inc";
 include "layout.inc";
 include "telaDeCadastro.inc";
 include 'dashboard.inc';
+include 'ViewAluno.inc';
 
 
